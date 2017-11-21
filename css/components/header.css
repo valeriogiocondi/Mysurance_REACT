@@ -1,0 +1,19 @@
+#main-header {
+	height: 60px;
+	background-color: #FF2F57;
+	border-bottom: solid 1px #EEE;
+	text-align: center;
+	overflow: hidden;
+}
+#main-header .title {
+	margin-top: 12px;
+	color: #FFF;
+}
+#main-header .title.show-up {
+	transition: opacity 0.5s linear;
+	-moz-transition: opacity 0.5s linear;
+	-o-transition: opacity 0.5s linear;
+	-webkit-transition: opacity 0.5s linear;
+
+	opacity: 1;
+}

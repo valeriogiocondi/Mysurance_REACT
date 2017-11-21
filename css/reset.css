@@ -1,0 +1,83 @@
+@import url("http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800");
+@import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
+
+body {
+	padding: 0px;
+	margin: 0px;
+	font-family: "Open Sans", sans-serif;
+	font-size: 12px;
+}
+.responsive {
+	margin: 0px auto;
+}
+
+.main-section {
+	padding: 50px;
+	text-align: center;
+}
+
+.button {
+	width: auto;
+	padding: 12px;
+	color: #FFF;
+	background-color: #FF2F57;
+	border: 0px;
+	font-size: 12px;
+	font-weight: 600;
+	text-decoration: none;
+	cursor: pointer;
+
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	-khtml-border-radius: 3px;
+
+	transition: background-color 0.3s ease-in-out;
+	-moz-transition: background-color 0.3s ease-in-out;
+	-o-transition: background-color 0.3s ease-in-out;
+	-webkit-transition: background-color 0.3s ease-in-out;
+}
+.button:hover {
+	background-color: #E6284D;
+}
+
+.button.inverse {
+	background-color: #E6284D;
+}
+.button.inverse:hover {
+	background-color: #FF2F57;
+}
+
+.button i {
+	margin-right: 5px;
+}
+
+.clearfix {
+	clear: both;
+}
+
+.left {
+	float: left;
+}
+
+.right {
+	float: right;
+}
+
+/*
+*		FADE EFFECT
+*/
+
+.fade-out {
+  visibility: hidden;
+  opacity: 0;
+}
+.fade-in {
+	visibility: visible;
+	opacity: 1;
+
+	transition: opacity 0.3s ease-in-out !important;
+	-moz-transition: opacity 0.3s ease-in-out !important;
+	-o-transition: opacity 0.3s ease-in-out !important;
+	-webkit-transition: opacity 0.3s ease-in-out !important;
+}

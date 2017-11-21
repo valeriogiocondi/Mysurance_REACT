@@ -1,0 +1,94 @@
+#add-insurance .go-back {
+	float: left;
+	padding: 7px;
+	margin-top: -70px;
+	color: #FF2F57;
+	background-color: transparent;
+	text-decoration: underline;
+
+	border-radius: 0px;
+	-webkit-border-radius: 0px;
+	-moz-border-radius: 0px;
+	-khtml-border-radius: 0px;
+}
+#add-insurance .go-back:hover {
+	color: #FFF;
+	background-color: #FF2F57;
+}
+#add-insurance h1 {
+	margin: 80px 0px 40px 0px;
+	font-size: 20px;
+	color: #FF2F57;
+}
+#add-insurance .input-text {
+	width: 220px;
+	margin: auto;
+	margin-bottom: 20px;
+}
+#add-insurance .input-text span {
+	float: left;
+	margin-bottom: 3px;
+	color: #444;
+	font-size: 12px;
+	font-weight: 600;
+}
+#add-insurance .input-text input[type="text"] {
+	width: calc(100% - 24px);
+	padding: 10px;
+	font-size: 14px;
+}
+
+#add-insurance .custom-list i {
+	position: absolute;
+	margin: 15px 0px 0px -20px;
+	color: #CCC;
+	font-size: 16px;
+
+	transition: color 0.3s linear;
+	-moz-transition: color 0.3s linear;
+	-o-transition: color 0.3s linear;
+	-webkit-transition: color 0.3s linear;
+}
+#add-insurance .custom-list:hover i {
+	color: #FF2F57;
+}
+#add-insurance .custom-list ul {
+	position: absolute;
+	padding: 0px;
+	z-index: 2;
+}
+#add-insurance .custom-list ul li {
+	list-style: none;
+	width: 200px;
+	padding: 10px;
+	margin: 0px auto	;
+	color: #333;
+	background-color: #FFF;
+	font-size: 14px;
+	text-align: center;
+	border: solid 1px #EEE;
+	border-top: 0;
+	cursor: pointer;
+
+	transition: background-color 0.3s linear;
+	-moz-transition: background-color 0.3s linear;
+	-o-transition: background-color 0.3s linear;
+	-webkit-transition: background-color 0.3s linear;
+}
+#add-insurance .custom-list ul {
+	border-top: solid 1px #EEE;
+}
+#add-insurance .custom-list ul li:hover {
+	color: #FFF;
+	background-color: #FF2F57;
+}
+#add-insurance #choose-insurance {
+	width: 220px;
+}
+#alert {
+	width: 300px;
+	height: 200px;
+}
+#alert p {
+	margin-top: 80px;
+}

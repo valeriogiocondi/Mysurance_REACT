@@ -1,0 +1,83 @@
+#home {
+	width: 800px;
+	padding: 50px;
+	margin: 0px auto;
+	margin-top: 50px;
+	overflow: hidden;
+}
+#home .total-yearly-premium {
+	float: left;
+	margin-top: 15px;
+	color: #FF2F57;
+	font-weight: 400;
+	font-size: 14px;
+}
+#home .total-yearly-premium span {
+	font-weight: 700;
+}
+#home .choose-your-insurance {
+	margin: 140px 0px 50px 0px;
+	color: #FF2F57;
+	font-size: 20px;
+	font-weight: 300;
+	/*opacity: 0;*/
+}
+#home .choose-your-insurance.show {
+	opacity: 1;
+
+	transition: opacity 0.3s ease-in-out 0.5s;
+	-moz-transition: opacity 0.3s ease-in-out 0.5s;
+	-o-transition: opacity 0.3s ease-in-out 0.5s;
+	-webkit-transition: opacity 0.3s ease-in-out 0.5s;
+}
+#home .add-insurance-button {
+	float: right;
+	margin-bottom: 20px;
+}
+#home .add-insurance-button.big {
+	float: none;
+	margin-top: 100px !important;
+	font-size: 16px;
+	font-weight: 400;
+	/*opacity: 0;*/
+}
+#home .add-insurance-button.big.show {
+	opacity: 1;
+
+	transition: opacity 0.3s ease-in-out 1s;
+	-moz-transition: opacity 0.3s ease-in-out 1s;
+	-o-transition: opacity 0.3s ease-in-out 1s;
+	-webkit-transition: opacity 0.3s ease-in-out 1s;
+}
+
+#home .user-insurances-table {
+	width: 100%;
+	border: solid 1px #EEE; 
+	border-collapse: collapse;
+}
+#home .user-insurances-table th,
+#home .user-insurances-table td {
+	padding: 15px;
+	border: solid 1px #EEE;
+	font-size: 14px;
+}
+#home .user-insurances-table th:last-child,
+#home .user-insurances-table td:last-child {
+	width: 30px;
+}
+
+#home .user-insurances-table td button {
+	background-color: transparent;
+	border: 0px;
+	color: #AAA;
+	font-size: 14px;
+	cursor: pointer;
+
+	transition: color 0.2s ease-in-out;
+	-moz-transition: color 0.2s ease-in-out;
+	-o-transition: color 0.2s ease-in-out;
+	-webkit-transition: color 0.2s ease-in-out;
+}
+#home .user-insurances-table td button:hover {
+	color: #FF2F57;
+}
